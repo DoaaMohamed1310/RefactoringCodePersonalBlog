@@ -20,8 +20,8 @@ ex:Bootstrap
 ## Running the App
   ###### Open the project through the .zip file provided and extract the files.
             Open index.html in the browser of your choice.
-
+### image app
 <div>
-  <img src='' width='150px/>
+  <img src='https://github.com/DoaaMohamed1310/RefactoringCodePersonalBlog/blob/main/My%20Advanced%20Blog%20-%20Google%20Chrome%208_30_2024%206_38_03%20AM%20(2).png' width='150'/>
   
 </div>
