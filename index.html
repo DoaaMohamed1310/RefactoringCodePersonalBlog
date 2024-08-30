@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Advanced Blog</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap file css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- style file  -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- start element go to top -->
+      <span class="btnGoToTop bg-primary rounded-circle p-2 position-fixed bottom-0 end-0 text-white mb-3 me-3">
+        <i class="fa-solid fa-arrow-up fa-xl"></i>
+      </span>
+    <!-- end element go to top -->
+
+
+    <!-- start header -->
+    <header class="header text-center position-relative bg-primary text-white ">
+      <h1>My Advanced Blog</h1>
+      <!--start navbar element -->
+      <nav class="navbar navbar-expand-lg bg-body-primary p-0">
+        <div class="container">
+          <button class="navbar-toggler m-auto ps-2 pe-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-white fs-2"></i>
+          </button>
+          <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto  mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white  p-0 ms-3 me-3 position-relative" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white  p-0 ms-3 me-3 position-relative " href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold  text-white p-0  ms-3 me-3 position-relative " href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold  text-white p-0  ms-3 me-3 position-relative " href="#">Portifolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--end navbar element -->
+    </header>
+    <!-- end header -->
+
+    <!-- start main body  -->
+    <main class="container mt-5">
+      <div class="row">
+        <!-- start col left -->
+        <div class="col-md-8 d-flex flex-column gap-4">
+          <article class="post card rounded-0">
+            <div class="card-body">
+              <h2 class="card-title mb-3 fs-4">First Advanced Article Title</h2>
+              <p class="card-text text-muted mb-3">This is some sample text for the first article. The full content of the article could be displayed here. Feel free to add more content and style it as needed.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </article>
+          <article class="post card rounded-0">
+            <div class="card-body">
+              <h2 class="card-title mb-3 fs-4">Second Advanced Article Title</h2>
+              <p class="card-text text-muted mb-3">This is some sample text for the first article. The full content of the article could be displayed here. Feel free to add more content and style it as needed.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </article>
+          <article class="post card rounded-0 mb-4">
+            <div class="card-body">
+              <h2 class="card-title mb-3 fs-4">Third Advanced Article Title</h2>
+              <p class="card-text text-muted mb-3">This is some sample text for the first article. The full content of the article could be displayed here. Feel free to add more content and style it as needed.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </article>
+        </div>
+        <!-- end col left -->
+        
+        <!-- start col right -->
+        <aside class="col-md-4 d-flex flex-column gap-4 ">
+          <div class="sidebar rounded-3">
+            <h3 class="fs-5">About the Blog</h3>
+            <p>
+              This blog is more advanced, requiring enhancements and
+              restructuring. Consider adding more sections and making it dynamic
+              with JavaScript.
+            </p>
+            <h3 class="fs-5">Useful Links</h3>
+            <ul class="ps-0">
+              <li><a class="text-primary position-relative" href="#">Home</a></li>
+              <li><a class="text-primary position-relative" href="#">About the Author</a></li>
+              <li><a class="text-primary position-relative" href="#">Contact Us</a></li>
+              <li><a class="text-primary position-relative" href="#">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="sidebar rounded-3">
+            <h3 class="fs-5">Recent Posts</h3>
+            <ul class="ps-0">
+              <li><a class="text-primary " href="#">How to Improve Your Blog</a></li>
+              <li><a class="text-primary " href="#">Understanding CSS Grid</a></li>
+              <li><a class="text-primary " href="#">10 JavaScript Tips and Tricks</a></li>
+            </ul>
+          </div>
+        </aside>
+        <!-- end col right -->
+
+      </div>
+    </main>
+    <!-- end main body  -->
+
+    <!-- start footer -->
+    <footer class="footer text-white mt-5  ">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6">
+          <form action="mailto:dm0189187@gmail.com" class="w-75 m-auto" >
+            <h2 class="mb-3 fw-bold ">Contact Us</h2>
+            <div class="mb-3 ">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control " id="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="massage" class="form-label"> Massage</label>
+              <textarea class="form-control " id="massage" rows="3"></textarea>
+            </div>
+            <button type="submit"  class="btnSubmit btn btn-primary">Send</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <p class="m-0 text-center">All Rights Reserved © 2024 | Designed by [Your Name]</p>
+          <ul class="d-flex gap-3 justify-content-center mt-5">
+            <li><a href="https://www.facebook.com/profile.php?id=100038744180049"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+            <li><a href="https://github.com/DoaaMohamed1310"><i class="fa-brands fa-github fa-xl "></i></a></li>
+            <li><a href="https://x.com/Doaa90832383"><i class="fa-brands fa-twitter fa-xl "></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- file bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- js file -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
